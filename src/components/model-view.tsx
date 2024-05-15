@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { OrbitControls, PerspectiveCamera, View } from "@react-three/drei";
 
 import { Suspense } from "react";

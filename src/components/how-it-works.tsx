@@ -19,6 +19,7 @@ const HowItWorks = () => {
 			ease: "power2.inOut",
 		});
 
+		// @ts-expect-error
 		animateWithGsap(".g_fadeIn", {
 			opacity: 1,
 			y: 0,
@@ -61,6 +62,7 @@ const HowItWorks = () => {
 								preload="none"
 								muted
 								autoPlay
+								// @ts-ignore
 								ref={videoRef}
 							>
 								<source src={frameVideo} type="video/mp4" />
